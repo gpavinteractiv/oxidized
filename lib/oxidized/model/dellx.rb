@@ -1,7 +1,7 @@
 class DellX < Oxidized::Model
   # Used in Dell X-Series Switches
 
-  prompt /[#>]$/
+  prompt /[#>]$|# $/
 
   comment '! '
 
